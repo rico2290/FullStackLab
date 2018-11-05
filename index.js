@@ -25,7 +25,7 @@ app.post('/categorias/nova', async(req, res)=>{
         categoria: req.body.categoria})
     res.send(req.body)
 })
-
+ 
 
 app.listen(port, (erro) => {
     if(erro){
